@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	<link rel="stylesheet" type="text/css" href="./css/boostrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/697e3add89.js" crossorigin="anonymous"></script>
+   
+    <title> Orinoco</title>
+</head>
+
+<body class="container">
+  <nav class="navbar navbar-expand-lg navbar-light backLogo">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="img" src="./img/logoOrinoco.png" alt="logo orinoco"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="panier.html?page=panier">Panier</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<div id="productListPanier">
+
+</div>
+<div class="imgFond">
+
+</div>
+  <div id="Commande">
+
+  </div>
+  
+  <form  id="formulaireApi" class="formulairePlacement">
+    <div class="mb-3">
+      <label for="InputNom" class="form-label">Nom</label>
+      <input type="text" class="form-control" id="InputNom" name="nom">
+      <div id="messageErreurNom" class="erreurFormulaire"></div>
+    </div>
+    <div class="mb-3">
+      <label for="InputPrenom" class="form-label">Prénom</label>
+      <input type="text" class="form-control" id="InputPrenom" name="prenom">
+      <div id="messageErreurPrenom" class="erreurFormulaire"></div>
+    </div>
+    <div class="mb-3">
+      <label for="InputAdresse" class="form-label">Adresse</label>
+      <input type="text" class="form-control" id="InputAdresse" name="adress">
+      <div id="messageErreurAdresse" class="erreurFormulaire"></div>
+    </div>
+    <div class="mb-3">
+      <label for="InputVille" class="form-label">Ville</label>
+      <input type="text" class="form-control" id="InputVille" name="ville">
+      <div id="messageErreurVille" class="erreurFormulaire"></div>
+    </div>
+    <div class="mb-3">
+      <label for="InputEmail1" class="form-label">Email</label>
+      <input type="email" class="form-control " id="InputEmail1" aria-describedby="emailHelp" name="email">
+      <div id="messageErreurEmail" class="erreurFormulaire"></div>
+    </div>
+    
+    
+    
+  </form>
+<button type="button" onclick="envoieApi()" class="btn btn-primary">Valider</button>
+<!--  -->
+
+ <footer>
+</footer>
+
+
+ <script src="test.js" ></script>
+</body>
+
+</html>

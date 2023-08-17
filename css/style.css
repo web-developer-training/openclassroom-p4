@@ -1,0 +1,127 @@
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgTaille{
+    width: 50%;
+}
+.nav{
+    width: 45%;
+}
+.img{
+    width: 30%;
+}
+.bloc-nav{
+    display: flex;
+    justify-content: center;
+}
+.listeArticle{
+    display: contents;
+    flex-direction: column;
+}
+
+.backLogo{
+    background-color: #f3e9f1;
+}
+.background{
+    background: transparent;
+    border: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #f3e9f1;
+    padding-top: 30px;
+}
+.buttonValide{
+    justify-content: center;
+    display: flex;
+    width: 143%;
+}
+.butonLentilles{
+    width: 11em!important;
+    
+}
+.prixTotal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+.card{
+    width: 19rem;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 1px;
+}
+
+.img-marge{
+    margin-top: 10px;
+}
+.card-panier{
+width: 13rem !important;
+display: flex;
+align-items: center;
+
+}
+#productListPanier{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-description{
+    width: 35rem !important;
+}
+.card-alignement{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.img-taille-panier{
+    height: 9rem;
+    object-fit: cover;
+}
+.formulairePlacement{
+    display: flex;
+
+}
+.erreurFormulaire{
+    
+    color: red;
+}
+.logo-carte{
+    width: 100%;
+}
+.blocConfirmation{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px -1px 6px 5px;
+    margin: 15px;
+    height: 12em;
+    border-radius: 20px;
+    width: 15em;
+    font-size: 1.5em;
+}
+.valideLogo{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.confirmationPlacement{
+    margin-left: 30px;
+}
+.imgFond{
+background: url("../img/Matériel-de-visite-virtuelle.jpg");
+z-index: -5;
+-o-object-fit: cover;
+object-fit: cover;
+width: 100vw;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+}

@@ -1,0 +1,25 @@
+#pageContainer{
+    width: 100%;
+    padding: 0%;
+}
+.title-orinoco{
+    background: rgb(133, 124, 124);
+    width: 100%;
+    height: 200px;
+}
+.flex-tilte{
+    width: 100%;
+
+}
+.title-orinoco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgContainer{
+  width: 80%;
+}
+.image-bloc{
+width: 25%;
+padding-bottom: 20px;
+}
